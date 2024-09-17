@@ -1,0 +1,118 @@
+{
+	"info": {
+		"_postman_id": "6d484f3d-354f-47db-b531-5c7de75e320b",
+		"name": "Crud API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24719199",
+		"_collection_link": "https://gts-mern-team.postman.co/workspace/Team-Workspace~26461f7e-c682-43d6-84fb-0ecabdeec9ee/collection/24719199-6d484f3d-354f-47db-b531-5c7de75e320b?action=share&source=collection_link&creator=24719199"
+	},
+	"item": [
+		{
+			"name": "Read_API",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":\"1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/read_api",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"read_api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create_API",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:4000/api/create_api",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"create_api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update_API",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":\"15\",\r\n    \"name\":\"udumalpet\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/update_api",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"update_api"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete_API",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\":\"15\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:4000/api/delete_api",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"delete_api"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
